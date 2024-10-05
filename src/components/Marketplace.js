@@ -4,14 +4,14 @@ import MarketplaceJSON from "../Marketplace.json";
 import axios from "axios";
 import { useState } from "react";
 import { GetIpfsUrlFromPinata } from "../utils";
-import { logo1 } from '../logo.png'
+
 export default function Marketplace() {
     const sampleData = [
         {
             "name": "NFT#1",
             "description": "mewo's First NFT",
             "website": "http://axieinfinity.io",
-            "image": logo1,
+            "image": "https://imgs.search.brave.com/LeDanWIHWBgdoQfV2tB84d5JTBsmIoTR09ihoCav_Ic/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjI2/NDY0MTU4L3Bob3Rv/L2NhdC13aXRoLW9w/ZW4tbW91dGguanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVFy/OURDVmt3S21fZHpm/amtlTjVmb0NCcDdj/M0VmQkZfaTJBMGV0/WWlKT0E9",
             "price": "0.03ETH",
             "currentlySelling": "True",
             "address": "0xe81Bf5A757CB4f7F82a2F23b1e59bE45c33c5b13",
@@ -20,7 +20,7 @@ export default function Marketplace() {
             "name": "NFT#2",
             "description": "mewo's Second NFT",
             "website": "http://axieinfinity.io",
-            "image": logo1,
+            "image": "https://imgs.search.brave.com/LeDanWIHWBgdoQfV2tB84d5JTBsmIoTR09ihoCav_Ic/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjI2/NDY0MTU4L3Bob3Rv/L2NhdC13aXRoLW9w/ZW4tbW91dGguanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVFy/OURDVmt3S21fZHpm/amtlTjVmb0NCcDdj/M0VmQkZfaTJBMGV0/WWlKT0E9",
             "price": "0.03ETH",
             "currentlySelling": "True",
             "address": "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",
@@ -29,7 +29,7 @@ export default function Marketplace() {
             "name": "NFT#3",
             "description": "mewo's Third NFT",
             "website": "http://axieinfinity.io",
-            "image": logo1,
+            "image": "https://imgs.search.brave.com/LeDanWIHWBgdoQfV2tB84d5JTBsmIoTR09ihoCav_Ic/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjI2/NDY0MTU4L3Bob3Rv/L2NhdC13aXRoLW9w/ZW4tbW91dGguanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVFy/OURDVmt3S21fZHpm/amtlTjVmb0NCcDdj/M0VmQkZfaTJBMGV0/WWlKT0E9",
             "price": "0.03ETH",
             "currentlySelling": "True",
             "address": "0xe81Bf5A757C4f7F82a2F23b1e59bE45c33c5b13",
